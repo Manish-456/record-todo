@@ -55,7 +55,6 @@ function App() {
            Manage your Todos
           </h2>
           <p className="mt-2 text-sm  text-center text-slate-400 font-semibold">A task management app for organizing to-do lists and tracking daily responsibilites.</p>
-          <div className="max-w-xl mx-auto h-[0.1px] mt-2 w-full bg-slate-50/40" />
 
           <div className="my-8">
             <TodoForm />
