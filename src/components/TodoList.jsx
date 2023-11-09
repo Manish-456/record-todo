@@ -41,7 +41,7 @@ export default function TodoList({ todo }) {
       <div className="flex flex-1 gap-2 items-center">
         {!isEditable && <input
           type="checkbox"
-          className="h-4 w-4 mt-0.5 cursor-pointer"
+          className="h-4 w-4 mt-0.5 shrink-0 cursor-pointer"
           checked={todo.isCompleted}
           onChange={() => handleChange(todo.id)}
         />}
