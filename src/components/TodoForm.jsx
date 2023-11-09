@@ -17,7 +17,7 @@ export default function TodoForm() {
         type="text"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
-        className="flex-1 border border-slate-500 rounded-md bg-transparent px-2 py-2 text-sm font-semibold "
+        className="flex-1 border border-slate-500 outline-none rounded-md bg-transparent px-2 py-2 text-sm font-semibold "
       />
       <button
         type="submit"
